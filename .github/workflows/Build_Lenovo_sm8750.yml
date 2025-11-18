@@ -68,7 +68,7 @@ jobs:
               ;;
             6.6.89)
               echo "os_patch_level=2025-06" >> $GITHUB_ENV
-              echo "releases=TB322FC_1.1.11.202" >> $GITHUB_ENV
+              echo "releases=TB322FC_1.1.11.263" >> $GITHUB_ENV
               ;;
           esac
            if [ -z "${{ github.event.inputs.custom_kernel_suffix }}" ]; then
